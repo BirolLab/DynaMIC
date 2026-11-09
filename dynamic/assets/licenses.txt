@@ -1,0 +1,34 @@
+THIRD-PARTY NOTICES
+
+plotly/plotly.min.js
+    plotly.js v3.1.1 (MIT)
+    Copyright 2012-2025, Plotly, Inc.
+    https://github.com/plotly/plotly.js
+
+icons/
+    download.svg     CC0    https://www.svgrepo.com/svg/471344/download-01
+    move.svg         MIT    https://www.svgrepo.com/svg/509171/move
+    save_figure.svg  PD     https://www.svgrepo.com/svg/499579/camera
+    select.svg       MIT    https://www.svgrepo.com/svg/507853/select
+    table.svg        MIT    https://www.svgrepo.com/svg/435958/table
+    zoom-out.svg     PD     https://www.svgrepo.com/svg/502921/zoom-out-1
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

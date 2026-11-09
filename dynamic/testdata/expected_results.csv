@@ -1,0 +1,37 @@
+treatment,organism,dose_layout,dose_response_label,fit_status,fit_slope,fit_midpoint,continuous_mic,discrete_mic,mic_qc,midpoint_qc,slope_qc,replicate_outliers,sc_imputed
+dose_invariant_01,Organism_A,128-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_02,Organism_A,128-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_03,Organism_A,128-1,dose-invariant,not_fit,,,,,,,,0,True
+dose_invariant_04,Organism_B,32-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_05,Organism_B,32-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_06,Organism_B,32-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_07,Organism_A,128-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_08,Organism_A,128-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_09,Organism_B,32-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_invariant_10,Organism_B,32-1,dose-invariant,not_fit,,,,,,,,0,False
+dose_variant_01,Organism_A,128-1,dose-variant,ok,5.971800851726671,3.984314152994864,6.523573565441835,8,measured,measured,measured,0,False
+dose_variant_02,Organism_A,128-1,dose-variant,ok,6.024669745333664,4.028184338463781,6.566927665974234,8,measured,measured,measured,0,False
+dose_variant_03,Organism_A,128-1,dose-variant,ok,6.115062786753486,3.9988607867311,6.472195878257674,8,measured,measured,measured,0,False
+dose_variant_04,Organism_A,128-1,dose-variant,ok,2.021593340509771,16.28333870630927,69.87001741025257,128,measured,measured,measured,0,True
+dose_variant_05,Organism_A,128-1,dose-variant,ok,1.9704893501578264,15.819912918731744,70.49468773875424,128,measured,measured,measured,0,False
+dose_variant_06,Organism_A,128-1,dose-variant,ok,1.9945327240451527,15.99383699643646,69.99742787478577,128,measured,measured,measured,0,False
+dose_variant_07,Organism_A,128-1,dose-variant,ok,3.85948296947958,7.950310660283747,17.04950581624296,32,measured,measured,measured,0,False
+dose_variant_08,Organism_A,128-1,dose-variant,ok,4.016519753829728,8.007861805000992,16.66825388507932,32,measured,measured,measured,0,True
+dose_variant_09,Organism_A,128-1,dose-variant,ok,3.973770048431079,8.03940855204071,16.866411431103707,32,measured,measured,measured,0,False
+dose_variant_10,Organism_A,128-1,dose-variant,ok,6.647024984060968,2.000400614338142,3.1152780776507747,4,measured,measured,measured,0,False
+dose_variant_11,Organism_A,128-1,dose-variant,ok,7.539093730204784,1.992795449255436,2.944957814827128,4,measured,measured,measured,0,False
+dose_variant_12,Organism_A,128-1,dose-variant,ok,8.190595943774534,2.0061976710540743,2.874076557403797,4,measured,measured,measured,8,True
+dose_variant_13,Organism_B,32-1,dose-variant,ok,3.019720956328137,4.027456228741371,10.678206165572195,16,measured,measured,measured,0,False
+dose_variant_14,Organism_B,32-1,dose-variant,ok,3.0462386238629877,4.00001476802847,10.51581072459794,16,measured,measured,measured,6,False
+dose_variant_15,Organism_B,32-1,dose-variant,ok,3.051385272389255,4.020537417623398,10.55254580990214,16,measured,measured,measured,0,False
+dose_variant_16,Organism_B,32-1,dose-variant,ok,5.152129093191357,1.9984492526828208,3.539094711217537,4,measured,measured,measured,0,False
+dose_variant_17,Organism_B,32-1,dose-variant,ok,5.050957474749601,2.003620896870834,3.5891043604962145,4,measured,measured,measured,0,False
+dose_variant_18,Organism_B,32-1,dose-variant,ok,5.10370116792445,2.006526561904681,3.5727208247154425,4,measured,measured,measured,0,False
+dose_variant_19,Organism_B,32-1,dose-variant,ok,1.9580100457258904,8.013444887829644,36.050196013907055,>32,range_limited,measured,resolution_limited,0,False
+dose_variant_20,Organism_B,32-1,dose-variant,ok,1.9473680267100355,8.152204570704606,36.97706671070124,>32,range_limited,measured,resolution_limited,0,False
+dose_variant_21,Organism_B,32-1,dose-variant,ok,1.9797848596001923,7.972002205443205,35.275464743175434,>32,range_limited,measured,resolution_limited,0,False
+inverse_variant_01,Organism_A,128-1,inverse dose-variant,not_fit,,,,,,,,0,False
+inverse_variant_02,Organism_A,128-1,inverse dose-variant,not_fit,,,,,,,,0,True
+inverse_variant_03,Organism_B,32-1,inverse dose-variant,not_fit,,,,,,,,0,False
+inverse_variant_04,Organism_B,32-1,inverse dose-variant,not_fit,,,,,,,,0,False
+outlier_replicate_01,Organism_A,128-1,dose-variant,ok,6.569218085164781,4.01214099419712,6.281084046574047,8,measured,measured,measured,8,True
