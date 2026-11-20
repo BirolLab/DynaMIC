@@ -1,4 +1,7 @@
 ![OS: Linux | macOS](https://img.shields.io/badge/OS-Linux%20%7C%20macOS-9974F8)
+[![Latest DynaMIC release](https://img.shields.io/github/v/release/BirolLab/DynaMIC?label=Release&color=E78549)](https://github.com/BirolLab/DynaMIC/releases/latest)
+[![Bioconda downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.anaconda.org%2Fpackage%2Fbioconda%2Fdynamic&query=%24.ndownloads&label=Conda&suffix=%20downloads&color=35AC79)](https://anaconda.org/bioconda/dynamic)
+[![DynaMIC manuscript dataset on Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.24211070-658FFA)](https://doi.org/10.5281/zenodo.24211070)
 
 <p align="center">
   <img src="dynamic/logo/DynaMIC_logo.svg" alt="DynaMIC" width="140">
@@ -10,7 +13,7 @@ Detection and modelling of dose-response signals in broth microdilution assays.
 
 ## Contents
 
-1. [Description of DynaMIC](#description-of-dynamic)
+1. [Description](#description)
 2. [Interactive Report](#interactive-report)
 3. [Dependencies](#dependencies)
 4. [Installation](#installation)
@@ -20,7 +23,7 @@ Detection and modelling of dose-response signals in broth microdilution assays.
 8. [Credit](#credit)
 9. [License](#license)
 
-## Description of DynaMIC
+## Description
 
 DynaMIC normalizes optical density measurements using the growth and sterility controls from each
 assay and uses these controls to construct organism- and dose-layout-specific empirical null
@@ -56,6 +59,28 @@ to:
 
 ## Installation
 
+Create and activate a conda environment, then choose an installation method below.
+
+1. Create a conda environment:
+
+   ```bash
+   conda create -n dynamic python=3.12
+   ```
+
+2. Activate the environment:
+
+   ```bash
+   conda activate dynamic
+   ```
+
+### Installing DynaMIC using conda (Recommended)
+
+1. Install DynaMIC from Bioconda:
+
+   ```bash
+   conda install -c conda-forge bioconda::dynamic
+   ```
+
 ### Installing from source
 
 1. Clone the repository:
@@ -64,18 +89,11 @@ to:
    git clone https://github.com/BirolLab/DynaMIC.git
    ```
 
-2. Create and activate a conda environment:
-
-   ```bash
-   conda create -n dynamic python=3.12 -y
-   conda activate dynamic
-   ```
-
-3. Install DynaMIC:
+2. Install DynaMIC:
 
    ```bash
    cd DynaMIC
-   pip install .
+   python -m pip install .
    ```
 
 ### Installation verification
